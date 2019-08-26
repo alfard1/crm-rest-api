@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class RestExceptionHandler {
 
     // exception handler for RestExceptionNotFound
-
     @ExceptionHandler
     public ResponseEntity<RestExceptionEntity> handleException(RestExceptionNotFound exc) {
 
@@ -36,5 +35,4 @@ public class RestExceptionHandler {
         // return ResponseEntity
         return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
-
 }

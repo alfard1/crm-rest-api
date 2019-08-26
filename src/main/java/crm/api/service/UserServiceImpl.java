@@ -37,8 +37,6 @@ public class UserServiceImpl implements UserService {
 		return userDao.findByUserName(userName);
 	}
 
-
-
 	@Override
 	@Transactional
 	public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {

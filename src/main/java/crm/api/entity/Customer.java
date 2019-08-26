@@ -70,10 +70,4 @@ public class Customer {
 	public String toString() {
 		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
 	}
-		
 }
-
-
-
-
-

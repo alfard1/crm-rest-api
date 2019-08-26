@@ -1,1 +1,1 @@
-<% response.sendRedirect("http://springcrm.neg.edu.pl"); %>
+<% response.sendRedirect("http://springcrm.neg.edu.pl/api"); %>

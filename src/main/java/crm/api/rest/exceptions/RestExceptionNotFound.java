@@ -2,12 +2,8 @@ package crm.api.rest.exceptions;
 
 public class RestExceptionNotFound extends RuntimeException {
 
-    //empty constructor
-
     public RestExceptionNotFound() {
     }
-
-    // + auto-generated constructors
 
     public RestExceptionNotFound(String message) {
         super(message);

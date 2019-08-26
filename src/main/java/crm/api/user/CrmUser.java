@@ -8,7 +8,6 @@ public class CrmUser {
 	private String email;
 	
 	public CrmUser() {
-		
 	}
 
 	public String getUserName() {

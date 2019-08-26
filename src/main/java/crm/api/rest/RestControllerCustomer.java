@@ -91,6 +91,4 @@ public class RestControllerCustomer {
 
         return "Deleted customer id: " + customerId;
     }
-
-
 }

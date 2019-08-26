@@ -32,7 +32,6 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 
 		http.authorizeRequests()
-				//.antMatchers("/api/customers/").permitAll()
 				.antMatchers("/api/customers/list/**").hasRole("EMPLOYEE")
 				.antMatchers("/api/customers/new/**").hasAnyRole("MANAGER", "ADMIN")
 				.antMatchers("/api/customers/update/**").hasAnyRole("MANAGER", "ADMIN")
@@ -71,9 +70,3 @@ public class DemoSecurityConfig extends WebSecurityConfigurerAdapter {
 		return auth;
 	}
 }
-
-
-
-
-
-
